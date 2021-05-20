@@ -19,6 +19,28 @@ body {
     box-shadow: 0 0 10px #000;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    flex-grow: 0;
+}
+
+.miniBox {
+    border: 1px solid #000;
+    text-align: center;
+    margin: 5px;
+    min-height: 100px;
+    min-width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .header {
     display: flex;
     justify-content: flex-end;
