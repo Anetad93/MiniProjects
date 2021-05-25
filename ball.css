@@ -80,8 +80,8 @@ body {
     font-weight: bold;
 }
 
-.shake-animaton {
-    animation: shake 1s 1;
+.shake-animation {
+    animation: shake 2s 1;
 }
 
 @keyframes shake {
@@ -102,10 +102,10 @@ body {
     }
 
     80% {
-        left: 280px;
+        left: 300px;
     }
 
     100% {
-        left: 310px;
+        left: 280px;
     }
 }
